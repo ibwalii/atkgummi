@@ -1,0 +1,199 @@
+body{
+	background-image:url(../img/bg1.JPG);
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	}
+#top-bar{
+  
+  background:rgba(13,186,65,1.00);
+}
+
+#top-bar h1{
+  color:white;
+  text-align:center;
+  margin:auto;
+  padding:10px;
+}
+
+#user{
+  float:right;
+  font-size:20px;
+  color:#ffffff;
+  margin-right:10px;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+@media (max-width:767px) {
+  #user{
+    font-size:20px;
+    color:#ffffff;
+    margin-right:10px;
+    margin-top:10px;
+    float:none;
+    margin:auto;
+    padding-left:100px;
+  }
+}
+
+/* LOGIN BOX */
+/* 'Open Sans' font from Google Fonts */
+.login {
+  font-size: 16px;
+  margin-top: 5em;
+  cursor: pointer; }
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/* The triangle form is achieved by a CSS hack */
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color:rgba(13,186,65,1.00); }
+
+.login-header {
+  background: rgba(13,186,65,1.00);
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff; }
+  .login-header:hover {
+    background-color: rgba(13,200,65,1.00); }
+
+.login-container {
+  background: #ebebeb;
+  padding: 12px;
+  opacity: .94;
+  -webkit-box-shadow: 3px 18px 15px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 18px 15px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 18px 15px 1px rgba(0, 0, 0, 0.75); }
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px; }
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 1px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em; }
+
+.login input[type="text"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #6A6464; }
+
+/* Text fields' focus effect */
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888; }
+
+.login input[type="submit"] {
+  background: rgba(13,186,65,1.00);;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer; }
+
+.login input[type="submit"]:hover {
+  background-color: rgba(13,210,65,1.00); }
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: rgba(13,225,65,1.00); }
+
+/* END LOGIN */
+.wrapper{
+	min-height:100%;
+	}
+.holder{
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-bottom:10px;
+  background:rgba(13,186,65,0.9);
+  color:#FFFFFF;
+  border-radius:5px;
+  box-shadow:2px 2px 2px 2px rgba(35,33,33,1.00);
+}
+.holder tbody{
+	text-align:right;
+	}
+.holder input{
+	color:#000000;
+	}
+
+.container-fluid.holder{
+	width:98%;
+	}
+.sch_info{
+	border-right:#FFF thin solid;
+	}
+.sch_logo_holder{
+	border-right:#FFF thin solid;
+	}		
+#sch_logo{
+  height:200PX;
+  margin:auto;
+  display:block;
+}
+.sch_info h1{
+	margin-top:60px;
+	text-align:center;
+	}
+#time_count{
+  text-align:right;
+  border-left:#FFFFFF thin solid;
+}
+
+@media (max-width:991px) {
+  #time_count{
+    text-align:center;
+  }
+}
+#time_count h1, h2, h3, h4, h5, h6, p{
+	margin-top:1px;
+	}
+#footer{
+  background:rgba(13,186,65,1.0);
+  width:100%;
+  text-align:center;
+  font-size:20px;
+  padding:10px 0;
+  color:#FFFFFF;
+}
+#footer{
+	min-height:50px;
+	margin-top:50px;
+	}
+.timetable{
+	float:left;
+	margin: 0px;
+	width:10%;
+	margin-bottom:10px;
+	width:160px;
+	}	
+.timetable p{
+	border:solid thin #E8E1E1;
+	margin: 0px;
+	padding:5px;
+	text-align:right;
+	}
+.timetable p:first-child{
+	font-size:24px;
+	}	
+
+
